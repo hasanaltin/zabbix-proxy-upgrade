@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-INSTALL_CMD="yum -y upgrade"
+INSTALL_CMD="sudo yum -y upgrade"
 
 
 systemctl stop zabbix-proxy
